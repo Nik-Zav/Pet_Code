@@ -1,7 +1,7 @@
 def gip_kollatsa():
     n = int(input("Введите число: "))
     b = 0
-    while n > 1:
+    while n != 1:
         if n % 2 == 0:
             n = n/2
             b += 1
